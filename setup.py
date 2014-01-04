@@ -5,7 +5,7 @@ from setuptools import find_packages
 
 setuptools.setup(
   name = 'js.d3',
-  version = '2.10.3',
+  version = '3.3.13',
   license = 'BSD',
   description = 'Fanstatic package for D3.js',
   long_description = open('README.txt').read(),
@@ -19,6 +19,9 @@ setuptools.setup(
   zip_safe = False,
   install_requires=[
     'fanstatic',
+  ],
+  setup_requires=[
+    'setuptools-git',
   ],
   entry_points={
     'fanstatic.libraries': [
