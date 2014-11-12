@@ -8,7 +8,7 @@ setuptools.setup(
   version='3.4.14.dev0',
   license = 'BSD',
   description = 'Fanstatic package for D3.js',
-  long_description = open('README.txt').read(),
+  long_description = open('README.rst').read(),
   author = 'Matt Good',
   author_email = 'matt@matt-good.net',
   url = 'http://github.com/mgood/js.d3/',
