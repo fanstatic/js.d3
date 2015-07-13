@@ -28,7 +28,7 @@ In order to obtain a newer version of this library, do the following,
 editing the version name (eg ``3.4.13``) accordingly::
 
     pushd js/d3/resources
-    VERSION="3.4.13"
+    VERSION="v3.5.5"
     wget https://github.com/mbostock/d3/raw/$VERSION/d3.js -O d3.js
     wget https://github.com/mbostock/d3/raw/$VERSION/d3.min.js -O d3.min.js
     popd
