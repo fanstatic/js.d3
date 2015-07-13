@@ -5,7 +5,7 @@ from setuptools import find_packages
 
 setuptools.setup(
     name='js.d3',
-    version='3.5.5.dev0',
+    version='3.5.5',
     license='BSD',
     description='Fanstatic package for D3.js',
     long_description=open('README.rst').read(),
