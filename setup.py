@@ -11,7 +11,7 @@ setuptools.setup(
     long_description=open('README.rst').read(),
     author='Matt Good',
     author_email='matt@matt-good.net',
-    url='http://github.com/mgood/js.d3/',
+    url='https://github.com/fanstatic/js.d3/',
     platforms='any',
     packages=find_packages(),
     namespace_packages=['js'],
